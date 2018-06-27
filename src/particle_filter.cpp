@@ -176,7 +176,7 @@ void ParticleFilter::resample() {
 
  // create resampled particles
  vector<Particle> re_par;
- re_par.resize(num_par);
+ re_par.resize(num_particles);
 
  // resample the particles according to weights
  for(int i=0; i<num_par; i++){
