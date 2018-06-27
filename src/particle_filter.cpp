@@ -34,8 +34,8 @@ void ParticleFilter::init(double x, double y, double theta, double std[]) {
   std::default_random_engine gen;
 
   // resize the vectors of particles and weights
-  num_par = N_P;
-  particles.resize(num_par);
+  num_particles = N_P;
+  particles.resize(num_particles);
   //weights.resize(num_particles);
 
   // generate the particles
